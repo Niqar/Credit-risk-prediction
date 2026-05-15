@@ -6,6 +6,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
+import gdown
 import os
 
 import matplotlib.pyplot as plt
@@ -26,7 +27,13 @@ from datetime import date
 
 st.set_page_config(page_title='CreditIQ', page_icon='🏦', layout='wide', initial_sidebar_state='expanded')
 
-df = pd.read_csv(r'C:\Users\Msi Katana\GIT_projects\credit-risk-prediction\data\application_train.csv')
+FILE_ID = "1gw-nwECUVDDz5CPjV2DJNFXSwo73OyJW"
+FILE_PATH = "application_train.csv"
+
+if not os.path.exists(FILE_PATH):
+    gdown.download(f"https://drive.google.com/uc?id={FILE_ID}", FILE_PATH, quiet=False)
+
+df = pd.read_csv(FILE_PATH)
 
 # ==================================================
 # Sidebar pages
