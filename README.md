@@ -89,6 +89,7 @@ matplotlib
 missingno
 scipy
 joblib
+gdown
 ```
 
 ---
@@ -123,6 +124,7 @@ matplotlib>=3.7
 missingno>=0.5
 scipy>=1.11
 joblib>=1.3
+gdown
 ```
 
 ---
