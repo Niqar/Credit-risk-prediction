@@ -112,6 +112,7 @@ matplotlib>=3.7
 missingno>=0.5
 scipy>=1.11
 joblib>=1.3
+gdown
 ```
 
 > **Important:** `transformers.py` must be in the same directory as `app2.py` so that `joblib.load()` can deserialize the custom transformers embedded in the pipeline.
