@@ -49,7 +49,7 @@ credit-risk-prediction/
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/Niqar/credit-risk-prediction.git
+git clone https://github.com/Niqar/Credit-risk-prediction.git
 cd credit-risk-prediction
 ```
 
