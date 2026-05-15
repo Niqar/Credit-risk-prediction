@@ -74,7 +74,7 @@ credit-risk-prediction/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/credit-risk-prediction.git
+git clone https://github.com/Niqar/Credit-risk-prediction.git
 cd credit-risk-prediction
 
 # 2. (Optional) Create a virtual environment
