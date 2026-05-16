@@ -31,7 +31,7 @@ FILE_ID = "1gw-nwECUVDDz5CPjV2DJNFXSwo73OyJW"
 FILE_PATH = "application_train.csv"
 
 if not os.path.exists(FILE_PATH):
-    gdown.download(f"https://drive.google.com/uc?id={FILE_ID}", FILE_PATH, quiet=False, fuzzy=True)
+    gdown.download(f"https://drive.google.com/uc?id={FILE_ID}", FILE_PATH, quiet=False)
 
 df = pd.read_csv(FILE_PATH)
 
