@@ -600,8 +600,9 @@ elif st.session_state.page == 'Predict':
 
     @st.cache_resource
     def load_pipe():
-        return joblib.load('models/lgbm_tuned_v2.pkl')
-
+        BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+        MODEL_PATH = os.path.join(BASE_DIR, 'models', 'lgbm_tuned_v2.pkl')
+        return joblib.load(MODEL_PATH)
     model = load_pipe()
 
     st.header('Loan Default Risk Predictor')
