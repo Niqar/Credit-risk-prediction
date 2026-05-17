@@ -1,6 +1,7 @@
 # Credit-risk-prediction
 ML pipeline for credit default prediction using Home Credit dataset. LightGBM (AUC 0.771), Optuna tuning, feature engineering (153→29 features), scikit-learn Pipeline + Streamlit dashboard.
 # 🏦 Credit Risk Prediction
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://credit-risk-prediction-better.streamlit.app/)
 
 A machine learning pipeline that predicts the probability of loan default using the [Home Credit Default Risk](https://www.kaggle.com/competitions/home-credit-default-risk) dataset. The project includes a full scikit-learn preprocessing pipeline, Optuna hyperparameter tuning, and an interactive Streamlit dashboard.
 
