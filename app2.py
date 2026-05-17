@@ -27,7 +27,7 @@ from datetime import date
 
 st.set_page_config(page_title='CreditIQ', page_icon='🏦', layout='wide', initial_sidebar_state='expanded')
 
-FILE_ID = "1gw-nwECUVDDz5CPjV2DJNFXSwo73OyJW"
+FILE_ID = "1Je2KR_QoCOdoFC7_2w0KU__7tGLJNGQX"
 FILE_PATH = "application_train.csv"
 
 if not os.path.exists(FILE_PATH):
